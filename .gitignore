@@ -39,3 +39,6 @@ yarn-error.*
 
 # Ignore other sensitive files
 config.js
+
+# Ignore Firebase configuration file
+FirebaseConfig.js

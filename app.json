@@ -28,16 +28,6 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    },
-    "extra": {
-      "firebaseApiKey": "AIzaSyC0aEOOTZukWSS7iFK7aBjz6akqdMJes0Y",
-      "firebaseAuthDomain": "dogma-fc025.firebaseapp.com",
-      "firebaseDatabaseUrl": "https://dogma-fc025-default-rtdb.europe-west1.firebasedatabase.app",
-      "firebaseProjectId": "dogma-fc025",
-      "firebaseStorageBucket": "dogma-fc025.appspot.com",
-      "firebaseMessagingSenderId": "167377580752",
-      "firebaseAppId": "1:167377580752:web:ccd5ff5e66f1033c8764d5",
-      "firebaseMeasurementId": "G-M4MFLW36RV"
     }
   }
 }
