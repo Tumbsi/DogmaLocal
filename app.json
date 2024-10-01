@@ -1,18 +1,24 @@
 {
   "expo": {
-    "name": "dogamlocal",
-    "slug": "dogamlocal",
+    "name": "your-app-name",
+    "slug": "your-app-slug",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
-    "userInterfaceStyle": "light",
     "splash": {
       "image": "./assets/splash.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.yourcompany.yourapp"
     },
     "android": {
       "adaptiveIcon": {
@@ -22,6 +28,16 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "firebaseApiKey": "AIzaSyC0aEOOTZukWSS7iFK7aBjz6akqdMJes0Y",
+      "firebaseAuthDomain": "dogma-fc025.firebaseapp.com",
+      "firebaseDatabaseUrl": "https://dogma-fc025-default-rtdb.europe-west1.firebasedatabase.app",
+      "firebaseProjectId": "dogma-fc025",
+      "firebaseStorageBucket": "dogma-fc025.appspot.com",
+      "firebaseMessagingSenderId": "167377580752",
+      "firebaseAppId": "1:167377580752:web:ccd5ff5e66f1033c8764d5",
+      "firebaseMeasurementId": "G-M4MFLW36RV"
     }
   }
 }

@@ -1,6 +1,14 @@
 import React from 'react';
+import { AuthProvider } from './backend/AuthContext';
 import MainStackNavigator from './navigation/MainStackNavigator';
 
-export default function App() {
-  return <MainStackNavigator />;
-}
+
+const App = () => {
+  return (
+    <AuthProvider>
+      <MainStackNavigator />
+    </AuthProvider>
+  );
+};
+
+export default App;

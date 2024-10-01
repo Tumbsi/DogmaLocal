@@ -33,3 +33,9 @@ yarn-error.*
 
 # typescript
 *.tsbuildinfo
+
+# .gitignore
+.env
+
+# Ignore other sensitive files
+config.js
